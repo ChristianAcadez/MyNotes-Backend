@@ -1,0 +1,25 @@
+{
+  "name": "mynotes-backend",
+  "version": "1.0.0",
+  "description": "Page created to access your notes everywher with your user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianAcadez/MyNotes-Backend.git"
+  },
+  "keywords": [
+    "Notes"
+  ],
+  "author": "Christian Hernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianAcadez/MyNotes-Backend/issues"
+  },
+  "homepage": "https://github.com/ChristianAcadez/MyNotes-Backend#readme",
+  "dependencies": {
+    
+  }
+}
