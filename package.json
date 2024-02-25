@@ -4,7 +4,7 @@
   "description": "Page created to access your notes everywher with your user",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon api/server.js --exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,13 @@
   },
   "homepage": "https://github.com/ChristianAcadez/MyNotes-Backend#readme",
   "dependencies": {
-    
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "nodemon": "^3.1.0"
   }
 }
